@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 
+let name = "inshah";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React with inshah
-        </a>
-      </header>
-    </div>
+    <>
+      <nav>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </nav>
+      <h1>hello {name}</h1>
+            <div className="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat, nihil temporibus recusandae maiores soluta fugiat et. Veritatis pariatur commodi modi doloribus perferendis. Maiores a mollitia nam possimus tempora quam deserunt aperiam earum ex?</p>
+      </div>
+    </>
   );
 }
 
